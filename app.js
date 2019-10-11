@@ -48,7 +48,7 @@ sequelize.sync({force : true}).then(async () => {
         await Types.bulkCreate([
             {type : 'Asian'},
             {type : 'Chinese'},
-            {type : 'Oriental'}
+            {type : 'food'}
         ]);
 
         await RestaurantTypes.bulkCreate([
